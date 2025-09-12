@@ -1,5 +1,5 @@
 /**
- * @author Ryan Balieiro
+ * @author Jagadeeshan
  * @description Use this script to create new articles.
  *
  * @usage

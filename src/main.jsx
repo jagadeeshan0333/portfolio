@@ -13,6 +13,7 @@ import FeedbacksProvider from "/src/providers/FeedbacksProvider.jsx"
 import InputProvider from "/src/providers/InputProvider.jsx"
 import NavigationProvider from "/src/providers/NavigationProvider.jsx"
 import Portfolio from "/src/components/Portfolio.jsx"
+import FloatingChat from "./components/layout/FloatingChat.jsx"
 
 /** Initialization Script... **/
 let container = null
@@ -34,6 +35,7 @@ const App = () => {
         <AppEssentialsWrapper>
             <AppCapabilitiesWrapper>
                 <Portfolio/>
+                <FloatingChat/>
             </AppCapabilitiesWrapper>
         </AppEssentialsWrapper>
     )

@@ -24,6 +24,12 @@
                 "title_short_nav": "연락처",
                 "title_long_prefix": "주저하지 말고",
                 "title_long": "{{연락}} 주세요"
+            },
+            "de": {
+                "title_short": "Kontakt",
+                "title_short_nav": "Kontakt",
+                "title_long_prefix": "Zögern Sie nicht",
+                "title_long": "{{Kontaktieren}} Sie mich"
             }
         }
     },
@@ -33,9 +39,10 @@
             "id": 1,
             "component": "ArticleContactForm",
             "settings": {
-                "email_js_public_key": "tzObcsmOwHvPy6Rhp",
-                "email_js_service_id": "service_4h8g7vb",
-                "email_js_template_id": "template_react"
+                "email_js_public_key": "duNmq1bZoICnr1tMC",
+                "email_js_service_id": "service_mbw4gcq",
+                "email_js_template_id": "template_qd8p6sd",
+                "email_js_auto_reply_template_id": "template_3e23ig8"
             },
             "locales": {
                 "en": {
@@ -61,6 +68,12 @@
                     "contact_thank_you_body": "귀하의 메시지를 받았으며 곧 연락드리겠습니다. 귀하의 시간에 감사드리며 연결되기를 기대합니다!",
                     "contact_thank_you_footer": "답변은 귀하의 이메일 주소 {{$email}}로 전송됩니다.",
                     "title": "{{메시지를}} 보내주세요"
+                },
+                "de": {
+                    "contact_thank_you_title": "{{Danke}} für die Kontaktaufnahme!",
+                    "contact_thank_you_body": "Ihre Nachricht ist eingegangen, und ich melde mich bald bei Ihnen. Ich schätze Ihre Zeit und freue mich auf die Verbindung!",
+                    "contact_thank_you_footer": "Die Antwort wird an Ihre E-Mail-Adresse gesendet: {{$email}}",
+                    "title": "Senden Sie mir eine {{Nachricht}}"
                 }
             },
             "items": null
@@ -77,75 +90,78 @@
                 "en": {"title": "Or if you {{prefer}}..."},
                 "es": {"title": "O si {{prefieres}}..."},
                 "fr": {"title": "Ou si vous {{préférez}}..."},
-                "ko": {"title": "또는 {{원하시면}}..."}
+                "ko": {"title": "또는 {{원하시면}}..."},
+                "de": {"title": "Oder wenn Sie {{bevorzugen}}..."}
             },
             "items": [
-                {
-                    "id": 1,
-                    "faIcon": "fa-solid fa-phone",
-                    "faIconColors": { "bg": "", "fill": "" },
-                    "label": "+1 (123) 456-7890",
-                    "link": {"href": "tel:11234567890", "tooltipString": "call_me"},
-                    "locales": {
-                        "en": {"title": "Phone"},
-                        "es": {"title": "Teléfono"},
-                        "fr": {"title": "Téléphone"},
-                        "ko": {"title": "전화"}
-                    }
-                },
                 {
                     "id":2,
                     "faIcon": "fa-solid fa-envelope",
                     "faIconColors": { "bg": "", "fill": "" },
-                    "label": "mark.choi@email.com",
-                    "link": {"href": "mailto:mark.choi@email.com", "tooltipString": "email_me"},
+                    "label": "jagadeeshanappu0333@gmail.com",
+                    "link": {"href": "mailto:jagadeeshanappu0333@gmail.com", "tooltipString": "email_me"},
                     "locales": {
                         "en": {"title": "E-mail"},
-                        "ko": {"title": "이메일"}
+                        "es": {"title": "Correo electrónico"},
+                        "fr": {"title": "E-mail"},
+                        "ko": {"title": "이메일"},
+                        "de": {"title": "E-Mail"}
                     }
                 },
                 {
                     "id": 3,
                     "faIcon": "fa-brands fa-linkedin",
                     "faIconColors": { "bg": "", "fill": "" },
-                    "label": "@markchoi",
-                    "link": {"href": "https://linkedin.com/in/", "tooltipString": "open_website"},
+                    "label": "Jagadeeshan D",
+                    "link": {"href": "https://www.linkedin.com/in/jagadeeshan-appu-008107185/", "tooltipString": "open_website"},
                     "locales": {
                         "en": {"title": "LinkedIn"},
-                        "ko": {"title": "링크드인"}
-                    }
-                },
-                {
-                    "id": 4,
-                    "faIcon": "fa-brands fa-facebook",
-                    "faIconColors": { "bg": "", "fill": "" },
-                    "label": "Mark Choi",
-                    "link": {"href": "https://facebook.com/profiles/mark.choi.855/default", "tooltipString": "open_website"},
-                    "locales": {
-                        "en": {"title": "Facebook"},
-                        "ko": {"title": "페이스북"}
+                        "es": {"title": "LinkedIn"},
+                        "fr": {"title": "LinkedIn"},
+                        "ko": {"title": "링크드인"},
+                        "de": {"title": "LinkedIn"}
                     }
                 },
                 {
                     "id": 5,
                     "faIcon": "fa-brands fa-instagram",
                     "faIconColors": { "bg": "", "fill": "" },
-                    "label": "@codingmark",
-                    "link": {"href": "https://instagram.com/", "tooltipString": "open_website"},
+                    "label": "@jagadeeshanappu_0333",
+                    "link": {"href": "https://www.instagram.com/jagadeeshanappu_0333", "tooltipString": "open_website"},
                     "locales": {
                         "en": {"title": "Instagram"},
-                        "ko": {"title": "인스타그램"}
+                        "es": {"title": "Instagram"},
+                        "fr": {"title": "Instagram"},
+                        "ko": {"title": "인스타그램"},
+                        "de": {"title": "Instagram"}
                     }
                 },
                 {
-                    "id": 6,
-                    "faIcon": "fa-brands fa-tiktok",
+                    "id": 7,
+                    "faIcon": "fa-brands fa-github",
                     "faIconColors": { "bg": "", "fill": "" },
-                    "label": "@markchoi",
-                    "link": {"href": "https://tiktok.com/@markchoi", "tooltipString": "open_website"},
+                    "label": "@jagadeeshan0333",
+                    "link": {"href": "https://github.com/jagadeeshan0333", "tooltipString": "open_website"},
                     "locales": {
-                        "en": { "title": "TikTok" },
-                        "ko": { "title": "틱톡" }
+                        "en": { "title": "GitHub" },
+                        "es": { "title": "GitHub" },
+                        "fr": { "title": "GitHub" },
+                        "ko": { "title": "깃허브" },
+                        "de": { "title": "GitHub" }
+                    }
+                },
+                {
+                    "id": 8,
+                    "faIcon": "fa-brands fa-x-twitter",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "label": "@AppuJagadeeshan",
+                    "link": {"href": "https://x.com/AppuJagadeeshan", "tooltipString": "open_website"},
+                    "locales": {
+                        "en": { "title": "X (Twitter)" },
+                        "es": { "title": "X (Twitter)" },
+                        "fr": { "title": "X (Twitter)" },
+                        "ko": { "title": "X (트위터)" },
+                        "de": { "title": "X (Twitter)" }
                     }
                 }
             ]

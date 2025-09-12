@@ -1,5 +1,5 @@
 /**
- * @author Ryan Balieiro
+ * @author Jagadeeshan
  * @date 2025-05-10
  * @description This hook provides methods to interact with external APIs.
  */
@@ -79,7 +79,15 @@ const handlers = {
         const response = {success: false}
 
         try {
-            const result = await emailjs.send(serviceId, templateId, validationBundle)
+
+             const clientTemplateId = "template_3e23ig8";
+       await emailjs.send(serviceId, clientTemplateId, {
+            name: validationBundle.name,
+            email: validationBundle.email,
+            message: validationBundle.message,
+        });          
+        
+        const result = await emailjs.send(serviceId, templateId, validationBundle)
             response.success = true
         } catch (error) {
             response.success = false

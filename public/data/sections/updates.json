@@ -24,6 +24,12 @@
                 "title_short_nav": "업데이트",
                 "title_long_prefix": "내 최근",
                 "title_long": "{{업데이트}}를 확인해 보세요"
+            },
+            "de": {
+                "title_short": "Leben kürzlich",
+                "title_short_nav": "Updates",
+                "title_long_prefix": "Schau dir meine",
+                "title_long": "Kürzlichen {{Updates}} an"
             }
         }
     },
@@ -56,6 +62,9 @@
                         },
                         "ko": {
                             "text": "출시된 앱"
+                        },
+                        "de": {
+                            "text": "Veröffentlichte Apps"
                         }
                     }
                 },
@@ -77,6 +86,9 @@
                         },
                         "ko": {
                             "text": "GitHub의 별"
+                        },
+                        "de": {
+                            "text": "Sterne auf GitHub"
                         }
                     }
                 },
@@ -98,6 +110,9 @@
                         },
                         "ko": {
                             "text": "방문한 국가"
+                        },
+                        "de": {
+                            "text": "Besuchte Länder"
                         }
                     }
                 },
@@ -119,6 +134,9 @@
                         },
                         "ko": {
                             "text": "오픈 소스 프로젝트"
+                        },
+                        "de": {
+                            "text": "Open-Source-Projekte"
                         }
                     }
                 },
@@ -140,6 +158,9 @@
                         },
                         "ko": {
                             "text": "소비된 커피"
+                        },
+                        "de": {
+                            "text": "Verbrauchter Kaffee"
                         }
                     }
                 },
@@ -161,6 +182,9 @@
                         },
                         "ko": {
                             "text": "코드 라인 수"
+                        },
+                        "de": {
+                            "text": "Zeilen Code"
                         }
                     }
                 },
@@ -185,6 +209,10 @@
                         "ko": {
                             "title": "무한대",
                             "text": "배움에 대한 열정"
+                        },
+                        "de": {
+                            "title": "Unendlich",
+                            "text": "Leidenschaft fürs Lernen"
                         }
                     }
                 }
@@ -198,7 +226,8 @@
                 "en": { "title": "Quick {{Facts}}" },
                 "es": { "title": "Feed de {{Noticias}}" },
                 "fr": { "title": "Fil d'{{Actualités}}" },
-                "ko": { "title": "{{뉴스}} 피드" }
+                "ko": { "title": "{{뉴스}} 피드" },
+                "de": { "title": "Schnell{{Fakten}}" }
             },
             "settings": {
                 "max_rows_collapse_threshold": 3,
@@ -243,6 +272,13 @@
                             "country": "캐나다",
                             "institution": "",
                             "text": "최근에 미국 캘리포니아로 이사하여 새로운 직업적, 개인적 기회를 탐색하고 있습니다. 이 활기찬 주가 제공하는 것들을 발견하고, 이 새로운 장에서 오는 모든 도전과 경험을 받아들이는 것이 기대됩니다. 앞으로의 여정과 황금 주에서 기다리는 모험에 대한 업데이트를 기대해 주세요!"
+                        },
+                        "de": {
+                            "title": "Umzug nach {{Kalifornien!}}",
+                            "province": "Ontario",
+                            "country": "Kanada",
+                            "institution": "",
+                            "text": "Ich habe kürzlich den Umzug nach Kalifornien, USA, unternommen, um neue berufliche und persönliche Möglichkeiten zu erkunden. Ich freue mich darauf, zu entdecken, was dieser lebendige Staat zu bieten hat, und alle Herausforderungen und Erfahrungen anzunehmen, die mit diesem neuen Kapitel in meinem Leben einhergehen. Aufgeregt für das, was kommt! Bleibt dran für Updates über meine Reise und die Abenteuer, die im Golden State auf mich warten!"
                         }
                     }
                 },
@@ -283,6 +319,13 @@
                             "country": "미국",
                             "institution": "",
                             "text": "저의 유튜브 채널을 시작하게 되어 매우 기쁩니다! 🎥✨ 기술, 코딩, 디지털 관련 모든 것에 대한 열정을 공유하는 이 흥미진진한 여정에 여러분을 초대합니다. 튜토리얼과 팁부터 프로젝트 소개까지, 이 플랫폼을 통해 여러분과 소통할 수 있기를 기대합니다. 구독하고 알림 벨을 눌러 최신 동영상을 받아보세요. 함께 이 모험을 시작해 봅시다!"
+                        },
+                        "de": {
+                            "title": "Mein eigener {{YouTube-Kanal}} gestartet!",
+                            "province": "Kalifornien",
+                            "country": "USA",
+                            "institution": "",
+                            "text": "Ich freue mich, den Start meines eigenen YouTube-Kanals anzukündigen! 🎥✨ Begleitet mich auf dieser spannenden Reise, während ich meine Leidenschaft für Technologie, Programmieren und alles Digitale teile. Von Tutorials und Tipps bis hin zu Projektpräsentationen, ich kann es kaum erwarten, mich über diese Plattform mit euch allen zu verbinden. Vergesst nicht, euch zu abonnieren und die Benachrichtigungsglocke zu aktivieren, um über meine neuesten Videos informiert zu bleiben. Lasst uns gemeinsam auf dieses Abenteuer gehen!"
                         }
                     }
                 },
@@ -349,6 +392,19 @@
                                 "기능 향상을 위한 인기 API 통합",
                                 "원활한 사용자 경험을 위한 실시간 데이터 동기화"
                             ]
+                        },
+                        "de": {
+                            "title": "Arbeite an einem neuen {{Mobile-Projekt!}}",
+                            "province": "Kalifornien",
+                            "country": "USA",
+                            "institution": "",
+                            "text": "Ich freue mich, mitzuteilen, dass ich aktuell an einem neuen Mobile-Projekt arbeite! Einige Funktionen dieses Projekts umfassen:",
+                            "list": [
+                                "Plattformübergreifende Kompatibilität mit iOS und Android",
+                                "Benutzerfreundliche Oberfläche mit intuitiver Navigation",
+                                "Integration mit beliebten APIs für erweiterte Funktionalität",
+                                "Echtzeit-Datensynchronisation für ein nahtloses Nutzererlebnis"
+                            ]
                         }
                     }
                 },
@@ -389,6 +445,13 @@
                             "country": "일본",
                             "institution": "Tech Innovators Inc.",
                             "text": "[[2025년 도쿄에서 열리는]] 기술 컨퍼런스에 참석하게 되어 매우 기쁩니다! 이 행사는 업계 리더들과 연결하고 최신 기술 트렌드를 배우며, 다른 기술 애호가들과 통찰력을 공유할 수 있는 환상적인 기회입니다. 토론에 참여하고, 워크숍에 참석하며, 우리 산업의 미래를 형성하는 혁신적인 솔루션을 탐색할 수 있기를 기대합니다. 컨퍼런스에 참석하신다면, 함께 연결해요! 다른 개발자와 기술 애호가들을 만나고 싶습니다. 행사에서의 업데이트와 하이라이트를 기대해 주세요!"
+                        },
+                        "de": {
+                            "title": "Teilnahme an der {{Tech Conference 2025!}}",
+                            "province": "Tokio",
+                            "country": "Japan",
+                            "institution": "Tech Innovators Inc.",
+                            "text": "Ich freue mich, anzukündigen, dass ich an der [[Tech Conference 2025]] in Tokio, Japan, teilnehmen werde! Diese Veranstaltung bietet eine fantastische Gelegenheit, sich mit Branchenführern zu vernetzen, die neuesten Technologietrends zu erlernen und Einblicke mit anderen Technikbegeisterten zu teilen. Ich freue mich darauf, an Diskussionen teilzunehmen, Workshops zu besuchen und innovative Lösungen zu erkunden, die die Zukunft unserer Branche prägen. Wenn du an der Konferenz teilnimmst, lass uns verbinden! Ich würde mich freuen, andere Entwickler und Technikliebhaber zu treffen. Bleib dran für Updates und Höhepunkte der Veranstaltung!"
                         }
                     }
                 },
@@ -398,7 +461,7 @@
                     "preview": {
                         "links": [
                             {"href": "https://google.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"},
-                            {"href": "https://github.com/ryanbalieiro/react-portfolio-template", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                            {"href": "https://github.com/jagadeeshan/react-portfolio-template", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
                         ],
                         "screenshots": [],
                         "screenshotsAspectRatio": "",
@@ -455,6 +518,19 @@
                                 "기술, 코딩 및 개인 경험에 관한 블로그",
                                 "문의 및 협업을 위한 연락처 양식",
                                 "소셜 미디어 프로필 및 GitHub 링크"
+                            ]
+                        },
+                        "de": {
+                            "title": "Mein {{persönliche Website}} gestartet!",
+                            "province": "Kalifornien",
+                            "country": "USA",
+                            "institution": "",
+                            "text": "Ich freue mich, den Start meiner [[persönlichen Website]] anzukündigen! 🎉 Diese Plattform ist ein Raum, in dem ich meine Projekte, Blogbeiträge und Einblicke in die Welt der Technologie und Entwicklung teilen kann. Es war eine Arbeit der Liebe, und ich kann es kaum erwarten, dass ihr alle sie erkundet. Hier sind einige Highlights, die ihr auf der Seite finden könnt:",
+                            "list": [
+                                "Portfolio mit meinen Projekten und Beiträgen",
+                                "Blog mit Artikeln über Technologie, Programmieren und persönliche Erfahrungen",
+                                "Kontaktformular für Anfragen und Zusammenarbeiten",
+                                "Links zu meinen Social-Media-Profilen und GitHub"
                             ]
                         }
                     }

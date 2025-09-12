@@ -1,5 +1,5 @@
 /**
- * @author Ryan Balieiro
+ * @author Jagadeeshan
  * @description Use this script to wipe all existing resume data and start fresh with a blank resume.
  *
  * @usage
@@ -37,8 +37,8 @@ jsonUtils.overwrite(jSettingsPath, {
 
     preloaderSettings: {
         enabled: true,
-        title: "React <b>Portfolio</b>",
-        subtitle: "by Ryan Balieiro",
+        title: "<b>Portfolio</b>",
+        subtitle: "by Jagadeeshan",
         logoOffset: {
             right: 14,
             top: 2,
