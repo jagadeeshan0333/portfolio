@@ -1,0 +1,221 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Achievements",
+                "title_short_nav": "Achievements",
+                "title_long_prefix": "Here are my",
+                "title_long": "Career {{Achievements}}"
+            },
+            "es": {
+                "title_short": "Logros",
+                "title_short_nav": "Logros",
+                "title_long_prefix": "Aquí están mis",
+                "title_long": "{{Logros}} Profesionales"
+            },
+            "fr": {
+                "title_short": "Réalis",
+                "title_short_nav": "Réalisations",
+                "title_long_prefix": "Voici",
+                "title_long": "Mes {{Réalisations}}"
+            },
+            "ko": {
+                "title_short": "경력 성과",
+                "title_short_nav": "경력 성과",
+                "title_long_prefix": "다음은",
+                "title_long": "{{경력 성과}}입니다"
+            },
+            "de": {
+                "title_short": "Erfolge",
+                "title_short_nav": "Erfolge",
+                "title_long_prefix": "Hier sind meine",
+                "title_long": "{{Erfolge}} Karriere"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleCards",
+            "locales": {
+                "en": { "title": "Certifications" },
+                "es": { "title": "Certificaciones" },
+                "fr": { "title": "Certifications" },
+                "ko": { "title": "인증서" },
+                "de": { "title": "Zertifikate" }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-cloud",
+                    "faIconColors": {"bg": "#326CE5", "fill": "#EEE"},
+                    "date": {"year": 2023, "month": 8},
+                    "link": {"href": "https://aws.amazon.com/", "tooltipString": "see_certification"},
+                    "locales": {
+                        "en": {
+                            "title": "{{AWS}}",
+                            "text": "AWS Certified Solutions Architect – Associate"
+                        },
+                        "es": {
+                            "text": "Arquitecto de Soluciones Certificado por AWS - Asociado"
+                        },
+                        "fr": {
+                            "text": "Architecte de Solutions Certifié AWS - Associé"
+                        },
+                        "ko": {
+                            "text": "AWS 공인 솔루션 아키텍트 - 준회원"
+                        },
+                        "de": {
+                            "text": "AWS Zertifizierter Lösungsarchitekt – Associate"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-solid fa-database",
+                    "faIconColors": {"bg": "#47A248", "fill": "#EEE"},
+                    "date": {"year": 2023, "month": 8},
+                    "link": {"href": "https://www.mongodb.com/", "tooltipString": "see_certification"},
+                    "locales": {
+                        "en": {
+                            "title": "{{MongoDB}} University",
+                            "text": "MongoDB Certified Developer"
+                        },
+                        "es": {
+                            "text": "Desarrollador Certificado de MongoDB"
+                        },
+                        "fr": {
+                            "text": "Développeur Certifié MongoDB"
+                        },
+                        "ko": {
+                            "text": "MongoDB 공인 개발자"
+                        },
+                        "de": {
+                            "text": "MongoDB Zertifizierter Entwickler"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleThread",
+            "locales": {
+                "en": { "title": "Awards" },
+                "es": { "title": "Premios" },
+                "fr": { "title": "Récompenses" },
+                "ko": { "title": "수상 내역" },
+                "de": { "title": "Auszeichnungen" }
+            },
+            "settings": {
+                "max_rows_collapse_threshold": 4,
+                "order_items_by": "date",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "date": {"year": 2023, "month": 6},
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Performance Optimization Award}}",
+                            "province": "Chennai",
+                            "country": "India",
+                            "institution": "FABC LLC India",
+                            "text": "Awarded for optimizing API response times by 30% and improving page load speeds by 35% using Sequelize ORM and lazy loading techniques in production environments."
+                        },
+                        "es": {
+                            "title": "{{Premio a la Optimización del Rendimiento}}",
+                            "province": "Chennai",
+                            "country": "India",
+                            "institution": "FABC LLC India",
+                            "text": "Premiado por optimizar los tiempos de respuesta de la API en un 30% y mejorar la velocidad de carga de páginas en un 35% utilizando Sequelize ORM y técnicas de carga diferida en entornos de producción."
+                        },
+                        "fr": {
+                            "title": "{{Prix de l'Optimisation des Performances}}",
+                            "province": "Chennai",
+                            "country": "Inde",
+                            "institution": "FABC LLC India",
+                            "text": "Récompensé pour avoir optimisé les temps de réponse de l'API de 30% et amélioré la vitesse de chargement des pages de 35% en utilisant Sequelize ORM et des techniques de chargement différé en environnements de production."
+                        },
+                        "ko": {
+                            "title": "{{성능 최적화 상}}",
+                            "province": "첸나이",
+                            "country": "인도",
+                            "institution": "FABC LLC India",
+                            "text": "Sequelize ORM과 지연 로딩 기술을 사용하여 프로덕션 환경에서 API 응답 시간을 30% 최적화하고 페이지 로드 속도를 35% 개선한 공로로 수상."
+                        },
+                        "de": {
+                            "title": "{{Leistungsoptimierungs-Auszeichnung}}",
+                            "province": "Chennai",
+                            "country": "Indien",
+                            "institution": "FABC LLC India",
+                            "text": "Ausgezeichnet für die Optimierung der API-Antwortzeiten um 30% und die Verbesserung der Ladezeiten von Seiten um 35% unter Verwendung von Sequelize ORM und Lazy-Loading-Techniken in Produktionsumgebungen."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "date": {"year": 2024, "month": 6},
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Innovation Award}} – Web3 Development",
+                            "province": "Chennai",
+                            "country": "India",
+                            "institution": "FABC LLC India",
+                            "text": "Recognized for developing a Web3 payment gateway and DNA Soccer Marketplace, integrating blockchain for secure transactions and player data management."
+                        },
+                        "es": {
+                            "title": "{{Premio a la Innovación}} – Desarrollo Web3",
+                            "province": "Chennai",
+                            "country": "India",
+                            "institution": "FABC LLC India",
+                            "text": "Reconocido por desarrollar una pasarela de pago Web3 y un Mercado de Fútbol DNA, integrando blockchain para transacciones seguras y gestión de datos de jugadores."
+                        },
+                        "fr": {
+                            "title": "{{Prix de l'Innovation}} – Développement Web3",
+                            "province": "Chennai",
+                            "country": "Inde",
+                            "institution": "FABC LLC India",
+                            "text": "Reconnu pour avoir développé une passerelle de paiement Web3 et un Marché de Football DNA, en intégrant la blockchain pour des transactions sécurisées et la gestion des données des joueurs."
+                        },
+                        "ko": {
+                            "title": "{{혁신 상}} – Web3 개발",
+                            "province": "첸나이",
+                            "country": "인도",
+                            "institution": "FABC LLC India",
+                            "text": "Web3 결제 게이트웨이와 DNA 축구 마켓플레이스를 개발하여 블록체인을 통한 안전한 거래와 플레이어 데이터 관리에 기여한 공로로 인정받음."
+                        },
+                        "de": {
+                            "title": "{{Innovationspreis}} – Web3-Entwicklung",
+                            "province": "Chennai",
+                            "country": "Indien",
+                            "institution": "FABC LLC India",
+                            "text": "Für die Entwicklung eines Web3-Zahlungsgateways und eines DNA-Fußball-Marktplatzes anerkannt, mit Integration von Blockchain für sichere Transaktionen und Spielerdatenmanagement."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "name": "Jagadeeshan",
+
+    "profilePictureUrl": "images/pictures/profile-picture.jpg",
+    "resumePdfUrl": "Jagadeeshan_Resume.pdf",
+
+    "statusCircleVisible": true,
+    "statusCircleVariant": "available",
+    "statusCircleHoverMessage": "status_message_available_for_freelance",
+
+    "locales": {
+        "en": {
+            "localized_name": "Jagadeeshan",
+            "localized_name_stylized": " [[Jagadeeshan]]",
+            "status_message_available_for_freelance": "Available for freelance!",
+            "roles": [
+                "Senior Software Developer",
+                "Full Stack Developer",
+                "Blockchain Developer",
+                "Digital Marketer"
+            ]
+        },
+        "es": {
+            "status_message_available_for_freelance": "¡Disponible para freelance!",
+            "roles": [
+                "Desarrollador de Software Senior",
+                "Desarrollador Full Stack",
+                "Desarrollador de Blockchain",
+                "Marketer Digital"
+            ]
+        },
+        "fr": {
+            "status_message_available_for_freelance": "Disponible pour freelance !",
+            "roles": [
+                "Développeur de Logiciels Senior",
+                "Développeur Full Stack",
+                "Développeur Blockchain",
+                "Marketeur Digital"
+            ]
+        },
+        "ko": {
+            "localized_name": "자가디샨",
+            "localized_name_stylized": "[[자가디샨]]",
+            "status_message_available_for_freelance": "프리랜스 가능합니다!",
+            "roles": [
+                "시니어 소프트웨어 개발자",
+                "풀 스택 개발자",
+                "블록체인 개발자",
+                "디지털 마케터"
+            ]
+        },
+        "de": {
+            "localized_name": "Jagadeeshan",
+            "localized_name_stylized": " [[Jagadeeshan]]",
+            "status_message_available_for_freelance": "Verfügbar für Freelance!",
+            "roles": [
+                "Senior Softwareentwickler",
+                "Full-Stack-Entwickler",
+                "Blockchain-Entwickler",
+                "Digitaler Marketingexperte"
+            ]
+        }
+    }
+}

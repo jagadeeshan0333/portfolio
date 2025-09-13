@@ -1,0 +1,656 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Portfolio",
+                "title_short_nav": "Portfolio",
+                "title_long_prefix": "Take a look at",
+                "title_long": "My {{Portfolio}}"
+            },
+            "es": {
+                "title_short": "Portafolio",
+                "title_short_nav": "Portafolio",
+                "title_long_prefix": "Explora",
+                "title_long": "Mi {{Portafolio}}"
+            },
+            "fr": {
+                "title_short": "Portfolio",
+                "title_short_nav": "Portfolio",
+                "title_long_prefix": "Découvrez",
+                "title_long": "Mon {{Portfolio}}"
+            },
+            "ko": {
+                "title_short": "포트폴리오",
+                "title_short_nav": "포트폴리오",
+                "title_long_prefix": "이것은 내",
+                "title_long": "{{포트폴리오}}입니다"
+            },
+            "de": {
+                "title_short": "Portolio",
+                "title_short_nav": "Portolio",
+                "title_long_prefix": "Schau dir an",
+                "title_long": "Mein {{Portolio}}"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticlePortfolio",
+            "locales": {
+                "en": {
+                    "category_all": "All",
+                    "category_apps": "Apps",
+                    "category_web": "Web",
+                    "category_utilities": "Utilities"
+                },
+                "es": {
+                    "category_all": "Todo",
+                    "category_apps": "Apps",
+                    "category_web": "Web",
+                    "category_utilities": "Utilidades"
+                },
+                "fr": {
+                    "category_all": "Tout",
+                    "category_apps": "Apps",
+                    "category_web": "Web",
+                    "category_utilities": "Utilitaires"
+                },
+                "ko": {
+                    "category_all": "모두",
+                    "category_apps": "앱",
+                    "category_web": "웹",
+                    "category_utilities": "유틸리티"
+                },
+                "de": {
+                    "category_all": "Alle",
+                    "category_apps": "Apps",
+                    "category_web": "Web",
+                    "category_utilities": "Werkzeuge"
+                }
+            },
+            "settings": {
+                "categorize_by": ["category_apps", "category_web", "category_utilities"],
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/portfolio-project-logo-1.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://github.com/jagadeeshan-d/e-commerce-platform", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+                            "images/pictures/screenshot-demo-landscape-1.png",
+                            "images/pictures/screenshot-demo-landscape-2.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "E-Commerce Platform",
+                            "text": "A full-stack e-commerce platform built with <b>React</b>, <b>Node.js</b>, and <b>MySQL</b> using Sequelize ORM. Improved page load time by 35% with lazy loading and SEO, deployed on <b>AWS EC2</b> with <b>S3</b> for media storage.",
+                            "tags": ["React", "Node.js", "MySQL", "AWS", "SEO"]
+                        },
+                        "es": {
+                            "text": "Una plataforma de comercio electrónico full-stack construida con <b>React</b>, <b>Node.js</b> y <b>MySQL</b> usando Sequelize ORM. Mejoró el tiempo de carga de páginas en un 35% con carga diferida y SEO, implementada en <b>AWS EC2</b> con <b>S3</b> para almacenamiento de medios.",
+                            "tags": ["React", "Node.js", "MySQL", "AWS", "SEO"]
+                        },
+                        "fr": {
+                            "text": "Une plateforme de commerce électronique full-stack construite avec <b>React</b>, <b>Node.js</b> et <b>MySQL</b> utilisant Sequelize ORM. Amélioration du temps de chargement des pages de 35% grâce au chargement différé et au SEO, déployée sur <b>AWS EC2</b> avec <b>S3</b> pour le stockage de médias.",
+                            "tags": ["React", "Node.js", "MySQL", "AWS", "SEO"]
+                        },
+                        "ko": {
+                            "text": "<b>React</b>, <b>Node.js</b>, <b>MySQL</b>과 Sequelize ORM을 사용해 구축한 풀스택 전자상거래 플랫폼으로, 지연 로딩과 SEO로 페이지 로드 시간을 35% 개선했으며, <b>AWS EC2</b>와 <b>S3</b>로 미디어 저장소에 배포.",
+                            "tags": ["React", "Node.js", "MySQL", "AWS", "SEO"]
+                        },
+                        "de": {
+                            "text": "Eine Full-Stack-E-Commerce-Plattform, gebaut mit <b>React</b>, <b>Node.js</b> und <b>MySQL</b> unter Verwendung von Sequelize ORM. Verbesserte die Ladezeit der Seiten um 35% durch Lazy Loading und SEO, bereitgestellt auf <b>AWS EC2</b> mit <b>S3</b> für Medienspeicherung.",
+                            "tags": ["React", "Node.js", "MySQL", "AWS", "SEO"]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "categoryId": "category_utilities",
+                    "img": "images/pictures/portfolio-project-logo-4.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://github.com/jagadeeshan-d/ats", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+                            "images/pictures/screenshot-demo-landscape-1.png",
+                            "images/pictures/screenshot-demo-landscape-2.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Applicant Tracking System (ATS)",
+                            "text": "A custom ATS built with <b>Node.js</b>, <b>React</b>, and <b>MySQL</b>, featuring keyword parsing, resume ranking, and smart filtering to streamline HR workflows.",
+                            "tags": ["Node.js", "React", "MySQL", "HR", "Filtering"]
+                        },
+                        "es": {
+                            "text": "Un ATS personalizado construido con <b>Node.js</b>, <b>React</b> y <b>MySQL</b>, con análisis de palabras clave, clasificación de currículums y filtrado inteligente para optimizar los flujos de trabajo de RRHH.",
+                            "tags": ["Node.js", "React", "MySQL", "RRHH", "Filtrado"]
+                        },
+                        "fr": {
+                            "text": "Un ATS personnalisé construit avec <b>Node.js</b>, <b>React</b> et <b>MySQL</b>, offrant une analyse de mots-clés, un classement de CV et un filtrage intelligent pour optimiser les flux de travail RH.",
+                            "tags": ["Node.js", "React", "MySQL", "RH", "Filtrage"]
+                        },
+                        "ko": {
+                            "text": "<b>Node.js</b>, <b>React</b>, <b>MySQL</b>로 구축된 맞춤형 ATS로, 키워드 분석, 이력서 순위 지정, 스마트 필터링 기능을 통해 HR 워크플로우를 간소화합니다.",
+                            "tags": ["Node.js", "React", "MySQL", "HR", "필터링"]
+                        },
+                        "de": {
+                            "text": "Ein maßgeschneidetes ATS, gebaut mit <b>Node.js</b>, <b>React</b> und <b>MySQL</b>, mit Schlüsselwort-Analyse, Lebenslauf-Rangliste und intelligentem Filtern zur Optimierung von HR-Arbeitsabläufen.",
+                            "tags": ["Node.js", "React", "MySQL", "HR", "Filtern"]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "categoryId": "category_utilities",
+                    "img": "images/pictures/portfolio-project-logo-4.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://github.com/jagadeeshan-d/ai-productivity", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+                            "images/pictures/screenshot-demo-landscape-1.png",
+                            "images/pictures/screenshot-demo-landscape-2.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "AI-Driven Productivity",
+                            "text": "Utilized <b>N8N AI agents</b> and ran <b>Ollama</b> on a Linux system to automate repetitive tasks, reducing manual workload by 20% and improving development efficiency.",
+                            "tags": ["N8N", "Ollama", "AI", "Automation"]
+                        },
+                        "es": {
+                            "text": "Utilicé <b>agentes de IA N8N</b> y ejecuté <b>Ollama</b> en un sistema Linux para automatizar tareas repetitivas, reduciendo la carga manual en un 20% y mejorando la eficiencia del desarrollo.",
+                            "tags": ["N8N", "Ollama", "IA", "Automatización"]
+                        },
+                        "fr": {
+                            "text": "Utilisé des <b>agents IA N8N</b> et exécuté <b>Ollama</b> sur un système Linux pour automatiser les tâches répétitives, réduisant la charge manuelle de 20% et améliorant l'efficacité du développement.",
+                            "tags": ["N8N", "Ollama", "IA", "Automatisation"]
+                        },
+                        "ko": {
+                            "text": "<b>N8N AI 에이전트</b>를 활용하고 Linux 시스템에서 <b>Ollama</b>를 실행하여 반복적인 작업을 자동화하여 수작업 부담을 20% 줄이고 개발 효율성을 향상시켰습니다.",
+                            "tags": ["N8N", "Ollama", "AI", "자동화"]
+                        },
+                        "de": {
+                            "text": "Nutzte <b>N8N AI-Agenten</b> und führte <b>Ollama</b> auf einem Linux-System aus, um repetitive Aufgaben zu automatisieren, wodurch die manuelle Arbeitsbelastung um 20% reduziert und die Entwicklungeffizienz verbessert wurde.",
+                            "tags": ["N8N", "Ollama", "KI", "Automatisierung"]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/portfolio-project-logo-1.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://github.com/jagadeeshan-d/travel-agent-website", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+                            "images/pictures/screenshot-demo-landscape-1.png",
+                            "images/pictures/screenshot-demo-landscape-2.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Travel Agent Website",
+                            "text": "A full-stack website for booking and managing tours, built with <b>React</b> and <b>Node.js</b>, offering seamless user experience and tour management features.",
+                            "tags": ["React", "Node.js", "Travel", "Booking"]
+                        },
+                        "es": {
+                            "text": "Un sitio web full-stack para reservar y gestionar tours, construido con <b>React</b> y <b>Node.js</b>, ofreciendo una experiencia de usuario fluida y funciones de gestión de tours.",
+                            "tags": ["React", "Node.js", "Viajes", "Reservas"]
+                        },
+                        "fr": {
+                            "text": "Un site web full-stack pour réserver et gérer des excursions, construit avec <b>React</b> et <b>Node.js</b>, offrant une expérience utilisateur fluide et des fonctionnalités de gestion de tours.",
+                            "tags": ["React", "Node.js", "Voyages", "Réservations"]
+                        },
+                        "ko": {
+                            "text": "<b>React</b>와 <b>Node.js</b>로 구축된 투어 예약 및 관리용 풀스택 웹사이트로, 원활한 사용자 경험과 투어 관리 기능을 제공합니다.",
+                            "tags": ["React", "Node.js", "여행", "예약"]
+                        },
+                        "de": {
+                            "text": "Eine Full-Stack-Website zur Buchung und Verwaltung von Touren, gebaut mit <b>React</b> und <b>Node.js</b>, die ein nahtloses Benutzererlebnis und Tourenverwaltungsfunktionen bietet.",
+                            "tags": ["React", "Node.js", "Reisen", "Buchung"]
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/portfolio-project-logo-1.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://github.com/jagadeeshan-d/blockchain-lms", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+                            "images/pictures/screenshot-demo-landscape-1.png",
+                            "images/pictures/screenshot-demo-landscape-2.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Blockchain-Based Learning Management System (LMS)",
+                            "text": "Developed a blockchain-based LMS backend with <b>Node.js</b> and <b>MySQL</b> in a microservices architecture, featuring user authentication, course management, and NFT certificate issuance with <b>WebSockets</b> for real-time updates.",
+                            "tags": ["Node.js", "MySQL", "Blockchain", "WebSockets", "Microservices"]
+                        },
+                        "es": {
+                            "text": "Desarrollé un backend de LMS basado en blockchain con <b>Node.js</b> y <b>MySQL</b> en una arquitectura de microservicios, con autenticación de usuarios, gestión de cursos y emisión de certificados NFT con <b>WebSockets</b> para actualizaciones en tiempo real.",
+                            "tags": ["Node.js", "MySQL", "Blockchain", "WebSockets", "Microservicios"]
+                        },
+                        "fr": {
+                            "text": "Développé un backend de LMS basé sur la blockchain avec <b>Node.js</b> et <b>MySQL</b> dans une architecture de microservices, incluant l'authentification des utilisateurs, la gestion des cours et l'émission de certificats NFT avec <b>WebSockets</b> pour des mises à jour en temps réel.",
+                            "tags": ["Node.js", "MySQL", "Blockchain", "WebSockets", "Microservices"]
+                        },
+                        "ko": {
+                            "text": "<b>Node.js</b>와 <b>MySQL</b>을 사용해 마이크로서비스 아키텍처로 구축한 블록체인 기반 LMS 백엔드로, 사용자 인증, 코스 관리, NFT 인증서 발급 기능을 제공하며 <b>WebSockets</b>로 실시간 업데이트를 지원합니다.",
+                            "tags": ["Node.js", "MySQL", "Blockchain", "WebSockets", "마이크로서비스"]
+                        },
+                        "de": {
+                            "text": "Entwickelte ein Blockchain-basiertes LMS-Backend mit <b>Node.js</b> und <b>MySQL</b> in einer Microservices-Architektur, mit Benutzerauthentifizierung, Kursverwaltung und Ausstellung von NFT-Zertifikaten mit <b>WebSockets</b> für Echtzeit-Updates.",
+                            "tags": ["Node.js", "MySQL", "Blockchain", "WebSockets", "Microservices"]
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/portfolio-project-logo-1.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://github.com/jagadeeshan-d/recruitment-management-system", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+                            "images/pictures/screenshot-demo-landscape-1.png",
+                            "images/pictures/screenshot-demo-landscape-2.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Recruitment Management System (RMS)",
+                            "text": "Built a backend for RMS with <b>Node.js</b> in a microservices setup, including a skill marketplace, NFT-based CVs, and LMS-integrated DNA skill mapping with <b>WebSockets</b> for live notifications.",
+                            "tags": ["Node.js", "Microservices", "NFT", "WebSockets", "LMS"]
+                        },
+                        "es": {
+                            "text": "Construí un backend para RMS con <b>Node.js</b> en una configuración de microservicios, incluyendo un mercado de habilidades, CVs basados en NFT y mapeo de habilidades DNA integrado con LMS con <b>WebSockets</b> para notificaciones en vivo.",
+                            "tags": ["Node.js", "Microservicios", "NFT", "WebSockets", "LMS"]
+                        },
+                        "fr": {
+                            "text": "Construit un backend pour RMS avec <b>Node.js</b> dans une configuration de microservices, incluant un marché de compétences, des CV basés sur NFT et un mappage de compétences DNA intégré avec LMS avec <b>WebSockets</b> pour des notifications en direct.",
+                            "tags": ["Node.js", "Microservices", "NFT", "WebSockets", "LMS"]
+                        },
+                        "ko": {
+                            "text": "<b>Node.js</b>로 마이크로서비스 설정으로 RMS 백엔드를 구축했으며, 스킬 마켓플레이스, NFT 기반 CV, LMS 통합 DNA 스킬 매핑 기능을 포함하며 <b>WebSockets</b>로 실시간 알림을 제공합니다.",
+                            "tags": ["Node.js", "마이크로서비스", "NFT", "WebSockets", "LMS"]
+                        },
+                        "de": {
+                            "text": "Erstellte ein Backend für RMS mit <b>Node.js</b> in einer Microservices-Konfiguration, einschließlich eines Skill-Marktplatzes, NFT-basierten Lebensläufen und LMS-integrierter DNA-Fähigkeitszuordnung mit <b>WebSockets</b> für Live-Benachrichtigungen.",
+                            "tags": ["Node.js", "Microservices", "NFT", "WebSockets", "LMS"]
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/portfolio-project-logo-1.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://github.com/jagadeeshan-d/ico-projects", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+                            "images/pictures/screenshot-demo-landscape-1.png",
+                            "images/pictures/screenshot-demo-landscape-2.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Initial Coin Offering (ICO) Projects",
+                            "text": "Contributed to multiple ICO projects, ensuring seamless integration of <b>smart contracts</b> and decentralized features using <b>microservices</b> and <b>Docker</b> containerization.",
+                            "tags": ["Smart Contracts", "Microservices", "Docker", "Blockchain"]
+                        },
+                        "es": {
+                            "text": "Contribuí a múltiples proyectos de ICO, asegurando la integración perfecta de <b>contratos inteligentes</b> y funciones descentralizadas usando <b>microservicios</b> y contenedorización con <b>Docker</b>.",
+                            "tags": ["Contratos Inteligentes", "Microservicios", "Docker", "Blockchain"]
+                        },
+                        "fr": {
+                            "text": "Contribué à plusieurs projets d'ICO, assurant une intégration transparente de <b>contrats intelligents</b> et de fonctionnalités décentralisées avec <b>microservices</b> et la conteneurisation <b>Docker</b>.",
+                            "tags": ["Contrats Intelligents", "Microservices", "Docker", "Blockchain"]
+                        },
+                        "ko": {
+                            "text": "다수의 ICO 프로젝트에 기여하여 <b>스마트 계약</b>과 분산 기능의 원활한 통합을 <b>마이크로서비스</b>와 <b>Docker</b> 컨테이너화를 통해 보장했습니다.",
+                            "tags": ["스마트 계약", "마이크로서비스", "Docker", "Blockchain"]
+                        },
+                        "de": {
+                            "text": "Beitrag zu mehreren ICO-Projekten, mit nahtloser Integration von <b>Smart Contracts</b> und dezentralisierten Funktionen unter Verwendung von <b>Microservices</b> und <b>Docker</b>-Containerisierung.",
+                            "tags": ["Smart Contracts", "Microservices", "Docker", "Blockchain"]
+                        }
+                    }
+                },
+                {
+                    "id": 8,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/portfolio-project-logo-1.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://github.com/jagadeeshan-d/healthcare-websites", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+                            "images/pictures/screenshot-demo-landscape-1.png",
+                            "images/pictures/screenshot-demo-landscape-2.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Healthcare Websites",
+                            "text": "Designed and maintained healthcare websites using <b>IPFS</b> for secure storage of sensitive patient data, with <b>Nginx</b> and <b>Apache</b> for optimized serving.",
+                            "tags": ["IPFS", "Nginx", "Apache", "Healthcare"]
+                        },
+                        "es": {
+                            "text": "Diseñé y mantuve sitios web de salud usando <b>IPFS</b> para el almacenamiento seguro de datos sensibles de pacientes, con <b>Nginx</b> y <b>Apache</b> para una entrega optimizada.",
+                            "tags": ["IPFS", "Nginx", "Apache", "Salud"]
+                        },
+                        "fr": {
+                            "text": "Conçu et maintenu des sites web de santé utilisant <b>IPFS</b> pour un stockage sécurisé des données sensibles des patients, avec <b>Nginx</b> et <b>Apache</b> pour une diffusion optimisée.",
+                            "tags": ["IPFS", "Nginx", "Apache", "Santé"]
+                        },
+                        "ko": {
+                            "text": "<b>IPFS</b>를 사용하여 민감한 환자 데이터를 안전하게 저장하고, <b>Nginx</b>와 <b>Apache</b>로 최적화된 제공을 위해 설계 및 유지보수한 헬스케어 웹사이트.",
+                            "tags": ["IPFS", "Nginx", "Apache", "헬스케어"]
+                        },
+                        "de": {
+                            "text": "Entworfen und gepflegt Websites für den Gesundheitsbereich unter Verwendung von <b>IPFS</b> für sichere Speicherung sensibler Patientendaten, mit <b>Nginx</b> und <b>Apache</b> für optimierte Bereitstellung.",
+                            "tags": ["IPFS", "Nginx", "Apache", "Gesundheitswesen"]
+                        }
+                    }
+                },
+                {
+                    "id": 9,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/portfolio-project-logo-1.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://github.com/jagadeeshan-d/web3-payment-gateway", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+                            "images/pictures/screenshot-demo-landscape-1.png",
+                            "images/pictures/screenshot-demo-landscape-2.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Web3 Payment Gateway",
+                            "text": "Created a Web3 payment gateway for providers to merchants using <b>microservices</b> and <b>WebSockets</b>, reducing processing times and deployed on <b>Kubernetes</b> clusters.",
+                            "tags": ["Web3", "Microservices", "WebSockets", "Kubernetes"]
+                        },
+                        "es": {
+                            "text": "Creé una pasarela de pago Web3 para proveedores a comerciantes usando <b>microservicios</b> y <b>WebSockets</b>, reduciendo los tiempos de procesamiento y desplegada en clústeres <b>Kubernetes</b>.",
+                            "tags": ["Web3", "Microservicios", "WebSockets", "Kubernetes"]
+                        },
+                        "fr": {
+                            "text": "Créé une passerelle de paiement Web3 pour les fournisseurs aux commerçants utilisant <b>microservices</b> et <b>WebSockets</b>, réduisant les temps de traitement et déployée sur des clusters <b>Kubernetes</b>.",
+                            "tags": ["Web3", "Microservices", "WebSockets", "Kubernetes"]
+                        },
+                        "ko": {
+                            "text": "<b>마이크로서비스</b>와 <b>WebSockets</b>을 사용하여 제공업체에서 상인까지의 Web3 결제 게이트웨이를 만들었으며, 처리 시간을 줄이고 <b>Kubernetes</b> 클러스터에 배포했습니다.",
+                            "tags": ["Web3", "마이크로서비스", "WebSockets", "Kubernetes"]
+                        },
+                        "de": {
+                            "text": "Erstellte eine Web3-Zahlungsplattform für Anbieter zu Händlern mit <b>Microservices</b> und <b>WebSockets</b>, wodurch die Verarbeitungszeiten reduziert und auf <b>Kubernetes</b>-Clustern bereitgestellt wurden.",
+                            "tags": ["Web3", "Microservices", "WebSockets", "Kubernetes"]
+                        }
+                    }
+                },
+                {
+                    "id": 10,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/portfolio-project-logo-1.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://github.com/jagadeeshan-d/dna-soccer-marketplace", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+                            "images/pictures/screenshot-demo-landscape-1.png",
+                            "images/pictures/screenshot-demo-landscape-2.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "DNA Soccer Marketplace",
+                            "text": "Engineered a marketplace for football players using <b>blockchain</b> for player data management and <b>NFT</b> assets, supporting scalable user interactions with <b>Docker</b> services.",
+                            "tags": ["Blockchain", "NFT", "Docker", "Soccer"]
+                        },
+                        "es": {
+                            "text": "Diseñé un mercado para jugadores de fútbol usando <b>blockchain</b> para la gestión de datos de jugadores y <b>NFT</b> como activos, soportando interacciones de usuarios escalables con servicios <b>Docker</b>.",
+                            "tags": ["Blockchain", "NFT", "Docker", "Fútbol"]
+                        },
+                        "fr": {
+                            "text": "Conçu un marché pour les joueurs de football utilisant <b>blockchain</b> pour la gestion des données des joueurs et <b>NFT</b> comme actifs, supportant des interactions d'utilisateurs évolutives avec des services <b>Docker</b>.",
+                            "tags": ["Blockchain", "NFT", "Docker", "Football"]
+                        },
+                        "ko": {
+                            "text": "<b>블록체인</b>을 사용하여 선수 데이터 관리와 <b>NFT</b> 자산으로 축구 선수용 마켓플레이스를 설계했으며, <b>Docker</b> 서비스로 확장 가능한 사용자 상호작용을 지원합니다.",
+                            "tags": ["Blockchain", "NFT", "Docker", "축구"]
+                        },
+                        "de": {
+                            "text": "Entwickelte einen Marktplatz für Fußballspieler unter Verwendung von <b>Blockchain</b> für die Spieler-Datenspeicherung und <b>NFT</b>-Assets, unterstützt skalierbare Benutzerinteraktionen mit <b>Docker</b>-Diensten.",
+                            "tags": ["Blockchain", "NFT", "Docker", "Fußball"]
+                        }
+                    }
+                },
+                {
+                    "id": 11,
+                    "categoryId": "category_utilities",
+                    "img": "images/pictures/portfolio-project-logo-4.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://github.com/jagadeeshan-d/rag-project", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+                            "images/pictures/screenshot-demo-landscape-1.png",
+                            "images/pictures/screenshot-demo-landscape-2.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Retrieval-Augmented Generation (RAG) Project",
+                            "text": "Implemented a RAG project for AI-driven content and query handling, optimizing system performance in real-time applications using <b>WebSockets</b> and <b>Swagger</b>-documented APIs.",
+                            "tags": ["RAG", "WebSockets", "Swagger", "AI"]
+                        },
+                        "es": {
+                            "text": "Implementé un proyecto RAG para contenido impulsado por IA y manejo de consultas, optimizando el rendimiento del sistema en aplicaciones en tiempo real usando <b>WebSockets</b> y APIs documentadas con <b>Swagger</b>.",
+                            "tags": ["RAG", "WebSockets", "Swagger", "IA"]
+                        },
+                        "fr": {
+                            "text": "Mis en œuvre un projet RAG pour le contenu piloté par l'IA et la gestion des requêtes, optimisant les performances du système dans des applications en temps réel avec <b>WebSockets</b> et des API documentées avec <b>Swagger</b>.",
+                            "tags": ["RAG", "WebSockets", "Swagger", "IA"]
+                        },
+                        "ko": {
+                            "text": "AI 기반 콘텐츠 및 쿼리 처리를 위한 RAG 프로젝트를 구현했으며, <b>WebSockets</b>와 <b>Swagger</b>로 문서화된 API를 사용하여 실시간 애플리케이션에서 시스템 성능을 최적화했습니다.",
+                            "tags": ["RAG", "WebSockets", "Swagger", "AI"]
+                        },
+                        "de": {
+                            "text": "Implementierte ein RAG-Projekt für KI-gestützte Inhalte und Abfrageverarbeitung, optimierte die Systemleistung in Echtzeit-Anwendungen mit <b>WebSockets</b> und <b>Swagger</b>-dokumentierten APIs.",
+                            "tags": ["RAG", "WebSockets", "Swagger", "KI"]
+                        }
+                    }
+                },
+                {
+                    "id": 12,
+                    "categoryId": "category_utilities",
+                    "img": "images/pictures/portfolio-project-logo-4.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://github.com/jagadeeshan-d/discord-bot-video-analytics", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+                            "images/pictures/screenshot-demo-landscape-1.png",
+                            "images/pictures/screenshot-demo-landscape-2.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Discord Bot for Video Analytics",
+                            "text": "Developed a <b>Node.js</b> Discord bot to analyze and process social media video content, enhancing community engagement and insights.",
+                            "tags": ["Node.js", "Discord", "Video Analytics", "Social Media"]
+                        },
+                        "es": {
+                            "text": "Desarrollé un bot de Discord con <b>Node.js</b> para analizar y procesar contenido de video en redes sociales, mejorando la participación y los conocimientos de la comunidad.",
+                            "tags": ["Node.js", "Discord", "Análisis de Video", "Redes Sociales"]
+                        },
+                        "fr": {
+                            "text": "Développé un bot Discord avec <b>Node.js</b> pour analyser et traiter le contenu vidéo des réseaux sociaux, améliorant l'engagement et les insights de la communauté.",
+                            "tags": ["Node.js", "Discord", "Analyse Vidéo", "Réseaux Sociaux"]
+                        },
+                        "ko": {
+                            "text": "<b>Node.js</b>로 소셜 미디어 비디오 콘텐츠를 분석하고 처리하는 Discord 봇을 개발하여 커뮤니티 참여와 통찰력을 향상시켰습니다.",
+                            "tags": ["Node.js", "Discord", "비디오 분석", "소셜 미디어"]
+                        },
+                        "de": {
+                            "text": "Entwickelte einen <b>Node.js</b> Discord-Bot zur Analyse und Verarbeitung von Social-Media-Video-Inhalten, um die Community-Beteiligung und Erkenntnisse zu verbessern.",
+                            "tags": ["Node.js", "Discord", "Video-Analyse", "Social Media"]
+                        }
+                    }
+                },
+                {
+                    "id": 13,
+                    "categoryId": "category_utilities",
+                    "img": "images/pictures/portfolio-project-logo-4.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://github.com/jagadeeshan-d/automated-garbage-collector", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+                            "images/pictures/screenshot-demo-landscape-1.png",
+                            "images/pictures/screenshot-demo-landscape-2.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Automated Garbage Collector",
+                            "text": "Designed an IoT/RFID-based system to optimize garbage collection, reducing operational costs by 15% using innovative tracking technology.",
+                            "tags": ["IoT", "RFID", "Automation", "Cost Reduction"]
+                        },
+                        "es": {
+                            "text": "Diseñé un sistema basado en IoT/RFID para optimizar la recolección de basura, reduciendo los costos operativos en un 15% con tecnología de seguimiento innovadora.",
+                            "tags": ["IoT", "RFID", "Automatización", "Reducción de Costos"]
+                        },
+                        "fr": {
+                            "text": "Conçu un système basé sur IoT/RFID pour optimiser la collecte des déchets, réduisant les coûts opérationnels de 15% grâce à une technologie de suivi innovante.",
+                            "tags": ["IoT", "RFID", "Automatisation", "Réduction des Coûts"]
+                        },
+                        "ko": {
+                            "text": "IoT/RFID 기반 시스템을 설계하여 쓰레기 수거를 최적화하고, 혁신적인 추적 기술을 사용하여 운영 비용을 15% 줄였습니다.",
+                            "tags": ["IoT", "RFID", "자동화", "비용 절감"]
+                        },
+                        "de": {
+                            "text": "Entworfen ein IoT-/RFID-basiertes System zur Optimierung der Müllabfuhr, wodurch die Betriebskosten um 15% reduziert wurden durch innovative Tracking-Technologie.",
+                            "tags": ["IoT", "RFID", "Automatisierung", "Kostenreduktion"]
+                        }
+                    }
+                },
+                {
+                    "id": 14,
+                    "categoryId": "category_utilities",
+                    "img": "images/pictures/portfolio-project-logo-4.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://github.com/jagadeeshan-d/self-driving-car-prototype", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [
+                            "images/pictures/screenshot-demo-landscape-1.png",
+                            "images/pictures/screenshot-demo-landscape-2.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Self-Driving Car Prototype",
+                            "text": "Created a prototype using <b>OpenCV</b> and machine learning algorithms for computer vision-based navigation.",
+                            "tags": ["OpenCV", "Machine Learning", "Computer Vision"]
+                        },
+                        "es": {
+                            "text": "Creé un prototipo usando <b>OpenCV</b> y algoritmos de aprendizaje automático para navegación basada en visión por computadora.",
+                            "tags": ["OpenCV", "Aprendizaje Automático", "Visión por Computadora"]
+                        },
+                        "fr": {
+                            "text": "Créé un prototype utilisant <b>OpenCV</b> et des algorithmes d'apprentissage automatique pour une navigation basée sur la vision par ordinateur.",
+                            "tags": ["OpenCV", "Apprentissage Automatique", "Vision par Ordinateur"]
+                        },
+                        "ko": {
+                            "text": "<b>OpenCV</b>와 머신 러닝 알고리즘을 사용하여 컴퓨터 비전 기반 내비게이션 프로토타입을 만들었습니다.",
+                            "tags": ["OpenCV", "머신 러닝", "컴퓨터 비전"]
+                        },
+                        "de": {
+                            "text": "Erstellte ein Prototyp mit <b>OpenCV</b> und maschinellen Lernalgorithmen für navigationsgestützte Computer Vision.",
+                            "tags": ["OpenCV", "Maschinelles Lernen", "Computer Vision"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
