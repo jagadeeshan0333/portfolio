@@ -492,7 +492,7 @@ KEY ACHIEVEMENTS
 - Enhanced API response time by 30% through the integration of Sequelize ORM methods in Node.js applications.
 `;
 
-const GEMINI_API_KEY = "AIzaSyBkeVPYl_X9AkKvx_FDlQZ-Y_idcIuEkBo";
+const GEMINI_API_KEY = "AIzaSyDMT8R5mRpUbU7vIS0FrY-xowNYT9Kgc84";
 const GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent";
 
 const TypingLoader = () => (
